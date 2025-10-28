@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: argocd-demo-app
-          image: vaibhav/argocd-demo-app:1.0
+          image: vaibhav/argocd-demo-app:latest
           ports:
             - containerPort: 3000
 ---
